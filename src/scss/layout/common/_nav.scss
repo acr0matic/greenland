@@ -11,4 +11,17 @@
 
   &__link {
   }
+
+  &--header {
+    .nav__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav__link {
+      font-size: $font-size__title--small;
+      text-transform: uppercase;
+    }
+  }
 }

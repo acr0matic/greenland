@@ -2,9 +2,9 @@
 // В этом файле подключаются все шрифты через font-face, если таковые есть
 // -----------------------------------------------------------------------------
 
-@include font-face("Roboto", "../fonts/FuturaPT/FuturaPT-Light", 300);
-@include font-face("Roboto", "../fonts/FuturaPT/FuturaPT-Book", 400);
+@include font-face("FuturaPT", "../fonts/FuturaPT/FuturaPT-Light", 300);
+@include font-face("FuturaPT", "../fonts/FuturaPT/FuturaPT-Book", 400);
 
-@include font-face("Roboto", "../fonts/NunitoSans/NunitoSans-Regular", 400);
+@include font-face("NunitoSans", "../fonts/NunitoSans/NunitoSans-Regular", 400);
 
-@include font-face("Roboto", "../fonts/OpenSans/OpenSans-Light", 300);
+@include font-face("OpenSans", "../fonts/OpenSans/OpenSans-Light", 300);

@@ -1,8 +1,25 @@
 .link {
+  position: relative;
   transition: $transition ease;
 
   @media (hover: hover) {
-    &:hover {
+    &:hover::after {
+      width: 100%;
     }
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+    width: 0%;
+    height: 1px;
+
+    background-color: #c79b59;
+
+    transition: $transition ease;
   }
 }
