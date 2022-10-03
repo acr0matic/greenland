@@ -1,2 +1,12 @@
 .section {
+  &:not(:first-child) {
+    margin-top: 150px;
+  }
+
+  &__title {
+    font-weight: $weight-Light;
+    font-family: FuturaPT, sans-serif;
+
+    text-transform: uppercase;
+  }
 }

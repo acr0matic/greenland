@@ -5,8 +5,14 @@
 body {
   color: $color-text__primary;
 
-  font-size: $font-size__text--regular;
+  font-size: $font-size__text--large;
   font-family: OpenSans, sans-serif;
 
   line-height: $line-height--primary;
+}
+
+h1,
+h2,
+h3 {
+  font-family: FuturaPT, sans-serif;
 }

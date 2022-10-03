@@ -1,0 +1,31 @@
+#feature {
+}
+
+.feature {
+  &__background {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 530px;
+    }
+
+    height: 600px;
+    margin-bottom: 60px;
+
+    background-color: #f3f3f3;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transition: $transition ease;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__number {
+    font-weight: $weight-Light;
+    font-size: 128px;
+
+    line-height: $line-height--secondary;
+  }
+}

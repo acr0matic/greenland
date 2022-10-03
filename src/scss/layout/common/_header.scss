@@ -8,6 +8,7 @@
   }
 
   position: sticky;
+  z-index: $z-index-header;
   top: 0;
 
   display: flex;
