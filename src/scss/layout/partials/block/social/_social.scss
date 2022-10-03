@@ -1,0 +1,18 @@
+.social {
+  display: flex;
+  align-items: center;
+
+  &__link {
+    transition: $transition ease;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-right: 60px;
+    }
+  }
+}
