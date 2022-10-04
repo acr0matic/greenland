@@ -1,0 +1,16 @@
+#catalog {
+}
+
+.catalog {
+  &__category {
+    position: relative;
+
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-bottom: 80px;
+      }
+
+      margin-bottom: 140px;
+    }
+  }
+}

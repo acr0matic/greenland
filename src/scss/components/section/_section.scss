@@ -1,5 +1,9 @@
 .section {
   &:not(:first-child) {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-top: 120px;
+    }
+
     margin-top: 150px;
   }
 
