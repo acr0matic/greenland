@@ -1,6 +1,8 @@
-const catalogSlider = document.querySelectorAll('.catalog__slider');
+const catalogSlider = document.querySelectorAll('.slider-catalog');
 
 catalogSlider.forEach(slider => {
+  const container = slider.closest('.slider');
+
   new Swiper(slider, {
     simulateTouch: false,
     effect: 'fade',
@@ -9,18 +11,34 @@ catalogSlider.forEach(slider => {
     },
 
     pagination: {
-      el: slider.querySelector('.swiper-pagination'),
+      el: container.querySelector('.swiper-pagination'),
       clickable: true,
     },
 
     navigation: {
-      nextEl: slider.parentNode.querySelector('.swiper-button-next'),
-      prevEl: slider.parentNode.querySelector('.swiper-button-prev'),
+      nextEl: container.querySelector('.swiper-button-next'),
+      prevEl: container.querySelector('.swiper-button-prev'),
     },
 
     a11y: {
       enabled: false,
     },
   });
+});
+
+const serviceSlider = document.querySelector('.slider-service');
+new Swiper(serviceSlider, {
+  slidesPerView: 3,
+  simulateTouch: false,
+  spaceBetween: 32,
+
+  navigation: {
+    nextEl: serviceSlider.parentNode.querySelector('.swiper-button-next'),
+    prevEl: serviceSlider.parentNode.querySelector('.swiper-button-prev'),
+  },
+
+  a11y: {
+    enabled: false,
+  },
 });
 
