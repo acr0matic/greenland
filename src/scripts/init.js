@@ -10,7 +10,18 @@ const lazyLoadInstance = new LazyLoad({
   },
 });
 
+const scrollController = new SmoothScroll('a[href*="#"]', scrollParams);
+
+const tooltip = tippy('[data-tippy-content]', {
+  allowHTML: true,
+  maxWidth: 320,
+  placement: 'right',
+  theme: 'flat',
+});
+
 const forms = document.querySelectorAll('form');
 forms.forEach(form => {
   new Form(form);
 });
+
+
