@@ -1,0 +1,45 @@
+#contact {
+  position: relative;
+  background-color: $palette-white--dark;
+
+  .section__title {
+    margin-bottom: 40px;
+  }
+}
+
+.contact {
+  &__content {
+    padding: 80px 0;
+  }
+
+  &__picture {
+    max-width: 245px;
+    margin: 0 auto;
+  }
+
+  &__info {
+    margin-top: 30px;
+
+    li {
+      display: flex;
+      align-items: flex-start;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+
+  &__map {
+    position: static;
+    height: 100%;
+
+    .map {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      width: 52.5%;
+    }
+  }
+}
