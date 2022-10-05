@@ -1,0 +1,21 @@
+.input {
+  position: relative;
+
+  &--error {
+    .input__field {
+      border-color: #f35c5c;
+    }
+  }
+
+  &__field {
+    width: 100%;
+
+    padding: 25px 30px;
+
+    border: none;
+    border-bottom: 1px solid #000000;
+    outline: none;
+
+    transition: $transition ease;
+  }
+}

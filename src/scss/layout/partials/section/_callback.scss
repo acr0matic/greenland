@@ -1,0 +1,22 @@
+#callback {
+  .section__header {
+    margin-bottom: 40px;
+  }
+
+  .section__title {
+    font-size: $font-size__title--small;
+  }
+}
+
+.callback {
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+  }
+
+  &__form {
+    flex-grow: 1;
+  }
+}
