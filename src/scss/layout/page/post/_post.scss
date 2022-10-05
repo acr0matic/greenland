@@ -1,0 +1,38 @@
+#post {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.post {
+  &__header {
+    margin-bottom: 60px;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    font-size: $font-size__title--medium;
+  }
+
+  &__price {
+    font-size: $font-size__title--small;
+  }
+
+  &__description {
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    & > div {
+      display: flex;
+      align-items: center;
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+
+      img {
+        margin-right: 16px;
+      }
+    }
+  }
+}

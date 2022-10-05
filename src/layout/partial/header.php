@@ -104,3 +104,6 @@
     </div>
     <!-- /.container -->
   </header>
+
+  <div id="loader" class="loader"></div>
+  <!-- /#loader -->

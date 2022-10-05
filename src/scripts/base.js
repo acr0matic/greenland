@@ -12,3 +12,6 @@ const scrollParams = {
 if (isMobile) {
   scrollParams.offset = 15;
 }
+
+const header = document.getElementById('header');
+const currentPage = document.querySelector('main').id;

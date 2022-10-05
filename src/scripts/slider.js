@@ -1,5 +1,6 @@
 const catalogSlider = document.querySelectorAll('.slider-catalog');
 
+if (catalogSlider)
 catalogSlider.forEach(slider => {
   const container = slider.closest('.slider');
 
@@ -27,18 +28,19 @@ catalogSlider.forEach(slider => {
 });
 
 const serviceSlider = document.querySelector('.slider-service');
-new Swiper(serviceSlider, {
-  slidesPerView: 3,
-  simulateTouch: false,
-  spaceBetween: 32,
+if (serviceSlider)
+  new Swiper(serviceSlider, {
+    slidesPerView: 3,
+    simulateTouch: false,
+    spaceBetween: 32,
 
-  navigation: {
-    nextEl: serviceSlider.parentNode.querySelector('.swiper-button-next'),
-    prevEl: serviceSlider.parentNode.querySelector('.swiper-button-prev'),
-  },
+    navigation: {
+      nextEl: serviceSlider.parentNode.querySelector('.swiper-button-next'),
+      prevEl: serviceSlider.parentNode.querySelector('.swiper-button-prev'),
+    },
 
-  a11y: {
-    enabled: false,
-  },
-});
+    a11y: {
+      enabled: false,
+    },
+  });
 
