@@ -1,0 +1,10 @@
+#video {
+
+}
+
+.video {
+  &__media {
+    height: 80vh;
+    background-color: $palette-white--dark;
+  }
+}
