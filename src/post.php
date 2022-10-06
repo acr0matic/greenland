@@ -28,7 +28,12 @@
               <div class="post__benefits">
                 <div class="row">
                   <div class="col-6">
-
+                    <ul class="post__list">
+                      <li>Площадь - 23 м</li>
+                      <li>5 комнат</li>
+                      <li>Кухня включена</li>
+                    </ul>
+                    <!-- /.post__list -->
                   </div>
                   <!-- /.col-6 -->
 
@@ -62,6 +67,22 @@
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
+
+        <div class="post__action">
+          <div class="row">
+            <div class="col-6">
+              <a href="" class="button button-secondary">Назад</a>
+            </div>
+            <!-- /.col-6 -->
+
+            <div class="col-6 text-center">
+              <a href="" class="button button-primary">Забронировать</a>
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.post__action -->
       </div>
       <!-- /.post -->
     </div>

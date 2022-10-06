@@ -21,6 +21,14 @@
     margin-bottom: 40px;
   }
 
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 556px;
+    }
+
+    height: 666px;
+  }
+
   &__list {
     & > div {
       display: flex;
@@ -34,5 +42,9 @@
         margin-right: 16px;
       }
     }
+  }
+
+  &__action {
+    margin-top: 56px;
   }
 }

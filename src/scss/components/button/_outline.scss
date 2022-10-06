@@ -1,0 +1,10 @@
+.button-outline {
+  border-color: #000000;
+  background-color: transparent;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+}
