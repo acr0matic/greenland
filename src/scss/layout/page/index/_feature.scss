@@ -7,6 +7,10 @@
       height: 530px;
     }
 
+    @include breakpoint($breakpoint-laptop) {
+      height: 420px;
+    }
+
     height: 600px;
     margin-bottom: 90px;
 

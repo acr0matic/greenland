@@ -4,6 +4,12 @@
   }
 
   .section__title {
+    @include breakpoint($breakpoint-laptop) {
+      br {
+        display: none;
+      }
+    }
+
     font-size: $font-size__title--small;
   }
 }

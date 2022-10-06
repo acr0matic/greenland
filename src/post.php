@@ -6,14 +6,16 @@
     <div class="container">
       <div class="post">
         <div class="row">
-          <div class="col-6">
-            <picture class="post__picture lazy">
-              <img data-src="content/post/picture.jpg" alt="" class="image image--cover lazy__item">
+          <div class="col-5 col-xl-6">
+            <picture class="post__picture lazy position-sticky">
+              <a data-fslightbox href="content/post/picture.jpg">
+                <img data-src="content/post/picture.jpg" alt="" class="image image--cover lazy__item">
+              </a>
             </picture>
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 ps-5">
+          <div class="col-7 col-xl-6 ps-5">
             <div class="post__content">
               <div class="post__header">
                 <h1 class="post__title">ДОМ №3</h1>

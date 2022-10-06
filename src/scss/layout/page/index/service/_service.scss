@@ -1,6 +1,11 @@
 #service {
   .section__header {
+    overflow: hidden;
     margin-bottom: 40px;
+  }
+
+  .section__title {
+    white-space: nowrap;
   }
 
   .swiper-control {

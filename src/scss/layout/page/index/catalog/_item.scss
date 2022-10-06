@@ -1,4 +1,10 @@
 .catalog-item {
+  &__picture {
+    @include breakpoint($breakpoint-laptop) {
+      height: 100%;
+    }
+  }
+
   &__content {
     @include breakpoint($breakpoint-laptop--medium) {
       padding: 25px 0;
@@ -63,5 +69,9 @@
 
   &__action {
     margin-top: auto;
+  }
+
+  &__button {
+    margin-top: 25px;
   }
 }

@@ -33,7 +33,7 @@
                 </div>
                 <!-- /.input -->
 
-                <div class="input">
+                <div class="input mb-5">
                   <input placeholder="Комментарий" autocomplete="off" type="text" name="user_message" class="input__field">
                   <img data-tippy-content="Сообщение слишком короткое" class="input__warning" src="" alt="">
                 </div>
@@ -49,7 +49,7 @@
         <!-- /.col-6 -->
 
         <div class="col-6 col-xxl-5 offset-1">
-          <picture class="callback__picture lazy">
+          <picture class="callback__picture lazy position-sticky">
             <img class="image image--cover lazy__item" data-src="img/layout/section/callback/picture.jpg" alt="">
           </picture>
         </div>

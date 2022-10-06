@@ -12,6 +12,10 @@
       width: 300px;
     }
 
+    @include breakpoint($breakpoint-laptop) {
+      width: 240px;
+    }
+
     width: 360px;
   }
 }

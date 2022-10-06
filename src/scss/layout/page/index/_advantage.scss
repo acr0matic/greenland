@@ -17,4 +17,12 @@
     font-weight: $weight-Regular;
     font-size: $font-size__title--medium;
   }
+
+  &__text {
+    @include breakpoint($breakpoint-laptop) {
+      br {
+        display: none;
+      }
+    }
+  }
 }

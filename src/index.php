@@ -29,7 +29,7 @@
       <div class="about">
         <div class="row g-0">
           <div class="col-5">
-            <picture class="lazy">
+            <picture class="lazy position-sticky">
               <img class="lazy__item image image--cover" data-src="img/layout/page/index/about/picture.jpg" alt="">
             </picture>
           </div>
@@ -297,7 +297,7 @@
                       <div class="row">
                         <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
+                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
@@ -348,7 +348,7 @@
                       <div class="row">
                         <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
+                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
@@ -422,7 +422,7 @@
                       <div class="row">
                         <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
+                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
@@ -473,7 +473,7 @@
                       <div class="row">
                         <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
+                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
@@ -545,7 +545,7 @@
   <section id="service" class="section">
     <div class="section__header text-center">
       <h2 class="section__title">
-        GREEN LAND <strong>УСЛУГИ</strong> GREEN LAND <strong>УСЛУГИ</strong>
+        GREEN LAND <strong>УСЛУГИ</strong> <span class="d-none d-xl-inline-block">GREEN LAND <strong>УСЛУГИ</strong></span>
       </h2>
     </div>
     <!-- /.section__header -->
@@ -635,7 +635,7 @@
       <div class="rule">
         <div class="row">
           <div class="col-5">
-            <picture class="rule__picture lazy h-100">
+            <picture class="rule__picture lazy position-sticky">
               <img class="image image--cover lazy__item" data-src="img/layout/page/index/rule/picture.jpg" alt="">
             </picture>
           </div>

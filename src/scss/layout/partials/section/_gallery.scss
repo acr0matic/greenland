@@ -1,0 +1,16 @@
+#gallery {
+}
+
+.gallery {
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 320px;
+    }
+
+    @include breakpoint($breakpoint-laptop) {
+      height: 260px;
+    }
+
+    height: 460px;
+  }
+}
