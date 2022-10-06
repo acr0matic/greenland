@@ -28,6 +28,10 @@
       font-size: $font-size__title--medium - 10px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--small + 16px;
+    }
+
     font-weight: $weight-Light;
     font-size: $font-size__title--medium;
 
@@ -38,6 +42,10 @@
     @include breakpoint($breakpoint-laptop--medium) {
       margin-bottom: 30px;
       font-size: $font-size__title--small - 4px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--small - 8px;
     }
 
     margin-bottom: 55px;
@@ -72,6 +80,10 @@
   }
 
   &__button {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+
     margin-top: 25px;
   }
 }

@@ -11,6 +11,11 @@
       height: 420px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 360px;
+      margin-bottom: 45px;
+    }
+
     height: 600px;
     margin-bottom: 90px;
 
@@ -29,6 +34,10 @@
   &__number {
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 96px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: 72px;
     }
 
     font-weight: $weight-Light;

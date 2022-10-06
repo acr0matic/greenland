@@ -65,7 +65,7 @@
     <div class="container">
       <div class="advantage">
         <div class="row gy-5 gx-5">
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 01
@@ -82,7 +82,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 02
@@ -101,7 +101,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 03
@@ -118,7 +118,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 04
@@ -135,7 +135,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 05
@@ -154,7 +154,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 06
@@ -171,7 +171,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 07
@@ -188,7 +188,7 @@
           </div>
           <!-- /.col -->
 
-          <div class="col-3">
+          <div class="col-4 col-lg-3">
             <div class="advantage__card">
               <h3 class="advantage__number">
                 08
@@ -295,14 +295,14 @@
                   <div class="swiper-slide">
                     <div class="catalog-item">
                       <div class="row">
-                        <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
+                        <div class="col-7 col-lg-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
                             <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
 
-                        <div class="col-4 col-xxl-3">
+                        <div class="col-5 col-lg-4 col-xxl-3">
                           <div class="catalog-item__content">
                             <h3 class="catalog-item__title">ДОМ №3</h3>
                             <span class="catalog-item__info">1900 руб/сутки</span>
@@ -346,14 +346,14 @@
                   <div class="swiper-slide">
                     <div class="catalog-item">
                       <div class="row">
-                        <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
+                        <div class="col-7 col-lg-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
                             <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
 
-                        <div class="col-4 col-xxl-3">
+                        <div class="col-5 col-lg-4 col-xxl-3">
                           <div class="catalog-item__content">
                             <h3 class="catalog-item__title">ДОМ №3</h3>
                             <span class="catalog-item__info">1900 руб/сутки</span>
@@ -420,14 +420,14 @@
                   <div class="swiper-slide">
                     <div class="catalog-item">
                       <div class="row">
-                        <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
+                        <div class="col-7 col-lg-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
                             <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
 
-                        <div class="col-4 col-xxl-3">
+                        <div class="col-5 col-lg-4 col-xxl-3">
                           <div class="catalog-item__content">
                             <h3 class="catalog-item__title">Номер №3</h3>
                             <span class="catalog-item__info">1900 руб/сутки</span>
@@ -471,14 +471,14 @@
                   <div class="swiper-slide">
                     <div class="catalog-item">
                       <div class="row">
-                        <div class="col-8 col-xxl-9 pe-4 pe-xxl-5">
+                        <div class="col-7 col-lg-8 col-xxl-9 pe-4 pe-xxl-5">
                           <picture class="catalog-item__picture lazy">
                             <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
                           </picture>
                         </div>
                         <!-- /.col-9 -->
 
-                        <div class="col-4 col-xxl-3">
+                        <div class="col-5 col-lg-4 col-xxl-3">
                           <div class="catalog-item__content">
                             <h3 class="catalog-item__title">Номер №3</h3>
                             <span class="catalog-item__info">1900 руб/сутки</span>

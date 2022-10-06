@@ -1,0 +1,5 @@
+.slider-service {
+  @include breakpoint($breakpoint-tablet--large) {
+    overflow: visible;
+  }
+}

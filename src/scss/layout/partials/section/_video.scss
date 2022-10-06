@@ -1,10 +1,10 @@
 #video {
-
 }
 
 .video {
   &__media {
-    height: 80vh;
+    height: 45vw;
+    max-height: 720px;
     background-color: $palette-white--dark;
   }
 }

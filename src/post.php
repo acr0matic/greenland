@@ -29,7 +29,7 @@
 
               <div class="post__benefits">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-12 col-lg-6 mb-5 mb-lg-0">
                     <ul class="post__list">
                       <li>Площадь - 23 м</li>
                       <li>5 комнат</li>
@@ -39,7 +39,7 @@
                   </div>
                   <!-- /.col-6 -->
 
-                  <div class="col-6">
+                  <div class="col-12 col-lg-6">
                     <div class="post__list">
                       <div>
                         <img src="content/icon/clock-1.svg" alt="">

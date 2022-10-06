@@ -1,8 +1,8 @@
 <section id="callback" class="section">
   <div class="container">
     <div class="callback">
-      <div class="row">
-        <div class="col-5 col-xxl-6">
+      <div class="row justify-content-center">
+        <div class="col-8 col-lg-5 col-xxl-6">
           <div class="callback__content">
             <div class="section__header">
               <h2 class="section__title">
@@ -48,7 +48,7 @@
         </div>
         <!-- /.col-6 -->
 
-        <div class="col-6 col-xxl-5 offset-1">
+        <div class="col-6 col-xxl-5 offset-1 d-none d-lg-block">
           <picture class="callback__picture lazy position-sticky">
             <img class="image image--cover lazy__item" data-src="img/layout/section/callback/picture.jpg" alt="">
           </picture>

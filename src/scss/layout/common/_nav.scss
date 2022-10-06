@@ -19,6 +19,12 @@
       justify-content: space-between;
     }
 
+    .nav__item:not(.nav__item--logo) {
+      @include breakpoint($breakpoint-tablet--large) {
+        display: none;
+      }
+    }
+
     .nav__link {
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: $font-size__text--large + 2px;

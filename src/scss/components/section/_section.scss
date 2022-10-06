@@ -4,12 +4,20 @@
       margin-top: 120px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 90px;
+    }
+
     margin-top: 150px;
   }
 
   &__title {
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: 75px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--medium - 10px;
     }
 
     font-size: $font-size__title--large;
@@ -22,6 +30,10 @@
     &--small {
       @include breakpoint($breakpoint-laptop--medium) {
         font-size: 50px;
+      }
+
+      @include breakpoint($breakpoint-tablet--large) {
+        font-size: 36px;
       }
 
       font-size: $font-size__title--medium;

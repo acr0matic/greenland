@@ -1,6 +1,6 @@
 #hero {
   position: relative;
-  height: calc(100vh - 160px);
+  height: calc(100vh - var(--header-height));
 
   background-image: url("../img/layout/page/index/hero/background.jpg");
   background-position: center center;

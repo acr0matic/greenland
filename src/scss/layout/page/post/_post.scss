@@ -1,23 +1,43 @@
 #post {
+  @include breakpoint($breakpoint-tablet--large) {
+    padding-top: 60px;
+  }
+
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
 .post {
   &__header {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 25px;
+    }
+
     margin-bottom: 60px;
     text-transform: uppercase;
   }
 
   &__title {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--medium - 16px;
+    }
+
     font-size: $font-size__title--medium;
   }
 
   &__price {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--small - 8px;
+    }
+
     font-size: $font-size__title--small;
   }
 
   &__description {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 25px;
+    }
+
     margin-bottom: 40px;
   }
 
@@ -49,6 +69,12 @@
   }
 
   &__action {
+    .button {
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 100%;
+      }
+    }
+
     margin-top: 56px;
   }
 }

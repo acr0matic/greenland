@@ -1,36 +1,36 @@
 const catalogSlider = document.querySelectorAll('.slider-catalog');
 
 if (catalogSlider)
-catalogSlider.forEach(slider => {
-  const container = slider.closest('.slider');
+  catalogSlider.forEach(slider => {
+    const container = slider.closest('.slider');
 
-  new Swiper(slider, {
-    simulateTouch: false,
-    effect: 'fade',
-    fadeEffect: {
-      crossFade: true
-    },
+    new Swiper(slider, {
+      simulateTouch: false,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
+      },
 
-    pagination: {
-      el: container.querySelector('.swiper-pagination'),
-      clickable: true,
-    },
+      pagination: {
+        el: container.querySelector('.swiper-pagination'),
+        clickable: true,
+      },
 
-    navigation: {
-      nextEl: container.querySelector('.swiper-button-next'),
-      prevEl: container.querySelector('.swiper-button-prev'),
-    },
+      navigation: {
+        nextEl: container.querySelector('.swiper-button-next'),
+        prevEl: container.querySelector('.swiper-button-prev'),
+      },
 
-    a11y: {
-      enabled: false,
-    },
+      a11y: {
+        enabled: false,
+      },
+    });
   });
-});
 
 const serviceSlider = document.querySelector('.slider-service');
 if (serviceSlider)
   new Swiper(serviceSlider, {
-    slidesPerView: 3,
+    slidesPerView: 1,
     simulateTouch: false,
     spaceBetween: 32,
 
@@ -41,6 +41,16 @@ if (serviceSlider)
 
     a11y: {
       enabled: false,
+    },
+
+    breakpoints: {
+      540: {
+        slidesPerView: 2,
+      },
+
+      992: {
+        slidesPerView: 3,
+      },
     },
   });
 
