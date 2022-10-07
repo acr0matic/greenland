@@ -3,31 +3,39 @@
 // -----------------------------------------------------------------------------
 
 .header {
-  @include breakpoint($breakpoint-laptop--medium) {
-    padding: 45px 0;
-  }
-
-  @include breakpoint($breakpoint-tablet--large) {
-    padding: 25px 0;
-  }
-
   position: sticky;
   z-index: $z-index-header;
   top: 0;
 
-  padding: 55px 0;
-
-  background-color: $palette-white;
-  transition: $transition ease;
-
-  &--contrast {
-    background-color: #f2f2f2;
+  &--contrast .header__wrapper {
+    background-color: #f2f2f2 !important;
   }
 
-  &__wrapper {
+  .container {
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 45px 0;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 25px 0;
+    }
+
+    position: relative;
+    z-index: 3;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    padding: 55px 0;
+
+    transition: $transition ease;
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 3;
+    background-color: $palette-white;
   }
 
   &__nav {

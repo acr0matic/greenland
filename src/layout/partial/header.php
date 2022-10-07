@@ -61,10 +61,13 @@
 </head>
 
 <body>
+  <div id="loader" class="loader"></div>
+  <!-- /#loader -->
+
   <!-- Шапка -->
   <header id="header" class="header">
-    <div class="container">
-      <div class="header__wrapper">
+    <div class="header__wrapper">
+      <div class="container">
         <div class="header__nav">
           <nav class="nav nav--header">
             <ul class="nav__list">
@@ -112,10 +115,9 @@
         </div>
         <!-- /.header__burger -->
       </div>
-      <!-- /.header__wrapper -->
+      <!-- /.container -->
     </div>
-    <!-- /.container -->
-  </header>
+    <!-- /.header__wrapper -->
 
-  <div id="loader" class="loader"></div>
-  <!-- /#loader -->
+    <?php include_once('menu/mobile.php') ?>
+  </header>

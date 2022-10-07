@@ -34,4 +34,19 @@
       text-transform: uppercase;
     }
   }
+
+  &--mobile {
+    .nav__item {
+      text-align: center;
+
+      &:not(:last-child) {
+        margin-bottom: 25px;
+      }
+    }
+
+    .nav__link {
+      font-size: $font-size__text--big + 2px;
+      text-transform: uppercase;
+    }
+  }
 }
