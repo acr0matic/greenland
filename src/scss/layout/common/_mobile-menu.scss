@@ -21,6 +21,11 @@
   }
 
   &__wrapper {
+    @include breakpoint($breakpoint-mobile--large) {
+      max-height: 400px;
+      padding: 20px 30px 40px;
+    }
+
     position: absolute;
     top: -100%;
     left: 0;

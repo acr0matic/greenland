@@ -4,6 +4,8 @@
 .video {
   &__media {
     height: 45vw;
+    min-height: 240px;
+
     max-height: 720px;
     background-color: $palette-white--dark;
   }

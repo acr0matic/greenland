@@ -17,17 +17,17 @@
 
             <ul class="contact__info">
               <li>
-                <img class="me-4" src="content/icon/mail.svg" alt="">
+                <img class="me-3 me-md-4" src="content/icon/mail.svg" alt="">
                 <a class="link" href="mailto:">greenland-nn@mail.ru</a>
               </li>
 
               <li>
-                <img class="me-4" src="content/icon/phone.svg" alt="">
+                <img class="me-3 me-md-4" src="content/icon/phone.svg" alt="">
                 <a class="link" href="tel:">8-910-894-78-87</a>, Мария
               </li>
 
               <li>
-                <img class="me-4" src="content/icon/geo.svg" alt="">
+                <img class="me-3 me-md-4" src="content/icon/geo.svg" alt="">
                 Нижегородская область, Городецкий муниципальный район, сельское поселение Федуринский сельсовет, д. Соболиха, территория базы отдыха «Радуга», дом 5/162, Green Land
               </li>
             </ul>

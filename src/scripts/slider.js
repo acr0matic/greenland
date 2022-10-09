@@ -5,11 +5,10 @@ if (catalogSlider)
     const container = slider.closest('.slider');
 
     new Swiper(slider, {
+      speed: 500,
+      slidesPerView: 'auto',
       simulateTouch: false,
-      effect: 'fade',
-      fadeEffect: {
-        crossFade: true
-      },
+      spaceBetween: 32,
 
       pagination: {
         el: container.querySelector('.swiper-pagination'),
@@ -24,13 +23,20 @@ if (catalogSlider)
       a11y: {
         enabled: false,
       },
+
+      breakpoints: {
+        540: {
+          slidesPerView: 1,
+        },
+      },
     });
   });
 
 const serviceSlider = document.querySelector('.slider-service');
 if (serviceSlider)
   new Swiper(serviceSlider, {
-    slidesPerView: 1,
+    speed: 500,
+    slidesPerView: 'auto',
     simulateTouch: false,
     spaceBetween: 32,
 

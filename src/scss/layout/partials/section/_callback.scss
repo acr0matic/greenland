@@ -10,6 +10,10 @@
       }
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--large;
+    }
+
     font-size: $font-size__title--small;
   }
 }

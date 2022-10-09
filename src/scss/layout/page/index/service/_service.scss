@@ -2,6 +2,10 @@
   overflow: hidden;
 
   .section__header {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 25px;
+    }
+
     overflow: hidden;
     margin-bottom: 40px;
   }

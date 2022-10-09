@@ -2,7 +2,7 @@
   <div class="container">
     <div class="callback">
       <div class="row justify-content-center">
-        <div class="col-8 col-lg-5 col-xxl-6">
+        <div class="col-12 col-md-8 col-lg-5 col-xxl-6">
           <div class="callback__content">
             <div class="section__header">
               <h2 class="section__title">

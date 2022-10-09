@@ -12,6 +12,17 @@
   }
 
   .container {
+    position: relative;
+    z-index: 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: $transition ease;
+  }
+
+  &__wrapper {
     @include breakpoint($breakpoint-laptop--medium) {
       padding: 45px 0;
     }
@@ -23,18 +34,8 @@
     position: relative;
     z-index: 3;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
     padding: 55px 0;
 
-    transition: $transition ease;
-  }
-
-  &__wrapper {
-    position: relative;
-    z-index: 3;
     background-color: $palette-white;
   }
 

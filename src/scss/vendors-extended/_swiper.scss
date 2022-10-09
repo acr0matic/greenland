@@ -1,8 +1,4 @@
 .swiper {
-  .row {
-    flex-wrap: nowrap;
-  }
-
   &-control {
     position: absolute;
     top: 50%;
@@ -71,6 +67,12 @@
         border-color: #d4d4d4;
         background-color: #d4d4d4;
       }
+    }
+  }
+
+  &-slide {
+    @include breakpoint($breakpoint-tablet) {
+      width: 80%;
     }
   }
 }

@@ -3,6 +3,11 @@
     font-size: $font-size__text--large;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    padding: 14px 65px;
+    font-size: $font-size__text--big - 2px;
+  }
+
   display: inline-flex;
   justify-content: center;
 

@@ -12,6 +12,10 @@
 
 .advantage {
   &__number {
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 48px;
+    }
+
     color: $color-text__yellow;
 
     font-weight: $weight-Regular;

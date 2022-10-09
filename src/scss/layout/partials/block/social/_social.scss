@@ -3,6 +3,10 @@
   align-items: center;
 
   &__link {
+    @include breakpoint($breakpoint-tablet) {
+      width: 52px;
+    }
+
     transition: $transition ease;
 
     @media (hover: hover) {

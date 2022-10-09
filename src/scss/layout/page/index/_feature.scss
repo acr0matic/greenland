@@ -16,6 +16,10 @@
       margin-bottom: 45px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      height: 270px;
+    }
+
     height: 600px;
     margin-bottom: 90px;
 

@@ -16,6 +16,10 @@
       width: 240px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      width: 180px;
+    }
+
     width: 360px;
   }
 }

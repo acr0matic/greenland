@@ -8,6 +8,10 @@
   }
 
   &__field {
+    @include breakpoint($breakpoint-tablet) {
+      padding: 10px 15px;
+    }
+
     width: 100%;
 
     padding: 25px 30px;
@@ -15,6 +19,8 @@
     border: none;
     border-bottom: 1px solid #000000;
     outline: none;
+
+    font-family: NunitoSans, sans-serif;
 
     transition: $transition ease;
   }

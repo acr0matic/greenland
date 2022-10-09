@@ -1,18 +1,35 @@
 #hero {
+  @include breakpoint($breakpoint-tablet) {
+    height: calc(75vh - var(--header-height));
+    margin-bottom: 140px;
+  }
+
   position: relative;
   height: calc(100vh - var(--header-height));
 
   background-image: url("../img/layout/page/index/hero/background.jpg");
   background-position: center center;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .hero {
   &__action {
+    @include breakpoint($breakpoint-tablet) {
+      bottom: -90px;
+      width: 95%;
+    }
+
     position: absolute;
     bottom: 10%;
     left: 50%;
 
     transform: translateX(-50%);
+
+    .button {
+      @include breakpoint($breakpoint-tablet) {
+        width: 100%;
+      }
+    }
   }
 }

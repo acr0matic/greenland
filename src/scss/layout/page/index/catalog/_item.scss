@@ -7,7 +7,7 @@
 
   &__content {
     @include breakpoint($breakpoint-laptop--medium) {
-      padding: 25px 0;
+      padding: 25px 0 0;
     }
 
     display: flex;
@@ -16,6 +16,22 @@
     height: 100%;
 
     padding: 40px 0;
+  }
+
+  &__header {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 30px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      margin-bottom: 20px;
+    }
+
+    margin-bottom: 55px;
   }
 
   &__title,
@@ -32,6 +48,14 @@
       font-size: $font-size__title--small + 16px;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__title--small;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__title--small - 8px;
+    }
+
     font-weight: $weight-Light;
     font-size: $font-size__title--medium;
 
@@ -40,7 +64,6 @@
 
   &__info {
     @include breakpoint($breakpoint-laptop--medium) {
-      margin-bottom: 30px;
       font-size: $font-size__title--small - 4px;
     }
 
@@ -48,7 +71,10 @@
       font-size: $font-size__title--small - 8px;
     }
 
-    margin-bottom: 55px;
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--big - 4px;
+    }
+
     font-size: $font-size__title--small;
   }
 
@@ -62,6 +88,11 @@
       }
 
       img {
+        @include breakpoint($breakpoint-tablet) {
+          width: 24px;
+          margin-right: 12px;
+        }
+
         margin-right: 16px;
       }
     }
@@ -70,6 +101,10 @@
   &__rent {
     @include breakpoint($breakpoint-laptop--medium) {
       margin-bottom: 60px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 15px;
     }
 
     margin-bottom: 100px;

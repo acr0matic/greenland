@@ -6,11 +6,10 @@ const scrollParams = {
   speedAsDuration: true,
   offset: 135,
   updateURL: false,
-  // header: '#header',
 }
 
 if (isMobile) {
-  scrollParams.offset = 15;
+  scrollParams.offset = 100;
 }
 
 const header = document.getElementById('header');

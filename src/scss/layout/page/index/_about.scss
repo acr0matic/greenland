@@ -3,5 +3,9 @@
 }
 
 .about {
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 40px;
+  }
+
   margin-top: 110px;
 }
