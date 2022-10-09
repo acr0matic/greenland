@@ -6,30 +6,78 @@
     <div class="container">
       <div class="post">
         <div class="row">
-          <div class="col-5 col-xl-6">
+          <div class="col-12 col-sm-5 col-xl-6">
+            <div class="post__header d-block d-sm-none">
+              <h1 class="post__title">ДОМ №3</h1>
+              <span class="post__price">1900 руб/сутки</span>
+            </div>
+            <!-- /.post__header -->
+
             <picture class="post__picture lazy position-sticky">
               <a data-fslightbox href="content/post/picture.jpg">
                 <img data-src="content/post/picture.jpg" alt="" class="image image--cover lazy__item">
               </a>
             </picture>
+
+            <div class="post__thumb d-block d-sm-none">
+              <div class="row g-2">
+                <div class="col-3">
+                  <picture class="catalog-item__picture lazy">
+                    <a data-fslightbox="" href="">
+                      <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
+                    </a>
+                  </picture>
+                </div>
+                <!-- /.col-3 -->
+
+                <div class="col-3">
+                  <picture class="catalog-item__picture lazy">
+                    <a data-fslightbox="" href="">
+                      <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
+                    </a>
+                  </picture>
+                </div>
+                <!-- /.col-3 -->
+
+                <div class="col-3">
+                  <picture class="catalog-item__picture lazy">
+                    <a data-fslightbox="" href="">
+                      <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
+                    </a>
+                  </picture>
+                </div>
+                <!-- /.col-3 -->
+
+                <div class="col-3">
+                  <picture class="catalog-item__picture lazy">
+                    <a data-fslightbox="" href="">
+                      <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
+                    </a>
+                  </picture>
+                </div>
+                <!-- /.col-3 -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.catalog-item__thumb -->
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-7 col-xl-6 ps-5">
+          <div class="col-12 col-sm-7 col-xl-6 ps-sm-5">
             <div class="post__content">
-              <div class="post__header">
+              <div class="post__header d-none d-sm-block">
                 <h1 class="post__title">ДОМ №3</h1>
                 <span class="post__price">1900 руб/сутки</span>
               </div>
               <!-- /.post__header -->
 
-              <p class="post__description">
+              <p class="post__description mt-4 mt-sm-0">
                 Дом находится в необыкновенном месте Нижегородской области! Комплекс окружён многовековым лесом, и расположен на берегу безбрежного Горьковского моря!
               </p>
 
               <div class="post__benefits">
                 <div class="row">
-                  <div class="col-12 col-lg-6 mb-5 mb-lg-0">
+                  <div class="col-12 col-lg-6 mb-4 mb-sm-5 mb-lg-0">
                     <ul class="post__list">
                       <li>Площадь - 23 м</li>
                       <li>5 комнат</li>
@@ -46,7 +94,7 @@
                         Заезд с 12:00
                       </div>
 
-                      <div class="mb-5">
+                      <div class="mb-sm-5">
                         <img src="content/icon/clock-2.svg" alt="">
                         Отъезд в 18:00
                       </div>

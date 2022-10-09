@@ -3,6 +3,10 @@
     padding-top: 60px;
   }
 
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 20px;
+  }
+
   padding-top: 100px;
   padding-bottom: 50px;
 }
@@ -22,12 +26,20 @@
       font-size: $font-size__title--medium - 16px;
     }
 
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--large + 4px;
+    }
+
     font-size: $font-size__title--medium;
   }
 
   &__price {
     @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__title--small - 8px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: $font-size__text--big - 4px;
     }
 
     font-size: $font-size__title--small;
@@ -50,7 +62,27 @@
       height: 360px;
     }
 
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 270px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      height: 180px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      position: static !important;
+    }
+
     height: 666px;
+  }
+
+  &__thumb {
+    margin-top: 16px;
+
+    picture {
+      height: 63px;
+    }
   }
 
   &__list {
