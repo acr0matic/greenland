@@ -101,12 +101,12 @@
   }
 
   &__action {
+    margin-top: 56px;
+
     .button {
       @include breakpoint($breakpoint-tablet--large) {
         width: 100%;
       }
     }
-
-    margin-top: 56px;
   }
 }
