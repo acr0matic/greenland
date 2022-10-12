@@ -5,6 +5,11 @@
     .input__field {
       border-color: #f35c5c;
     }
+
+    .input__warning {
+      opacity: 1;
+      visibility: visible;
+    }
   }
 
   &__field {
@@ -22,6 +27,21 @@
 
     font-family: NunitoSans, sans-serif;
 
+    transition: $transition ease;
+  }
+
+  &__warning {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+
+    width: 21px;
+    height: 21px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-50%);
     transition: $transition ease;
   }
 }

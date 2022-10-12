@@ -17,25 +17,25 @@
               <form action="" class="form form-callback h-100">
                 <div class="input mb-4">
                   <input placeholder="Имя" autocomplete="off" type="text" name="user_name" class="input__field">
-                  <img data-tippy-content="Имя указано некорректно" class="input__warning" src="" alt="">
+                  <img data-tippy-content="Имя указано некорректно" class="input__warning" src="img/icons/misc/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
                 <div class="input mb-4">
                   <input placeholder="Email" autocomplete="off" type="email" name="user_email" class="input__field">
-                  <img data-tippy-content="Почта содержит ошибки" class="input__warning" src="" alt="">
+                  <img data-tippy-content="Почта содержит ошибки" class="input__warning" src="img/icons/misc/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
                 <div class="input mb-4">
                   <input placeholder="Телефон" autocomplete="off" type="tel" name="user_phone" class="input__field">
-                  <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="" alt="">
+                  <img data-tippy-content="Телефон не указан или содержит ошибки" class="input__warning" src="img/icons/misc/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
                 <div class="input mb-5">
                   <input placeholder="Комментарий" autocomplete="off" type="text" name="user_message" class="input__field">
-                  <img data-tippy-content="Сообщение слишком короткое" class="input__warning" src="" alt="">
+                  <img data-tippy-content="Сообщение слишком короткое" class="input__warning" src="img/icons/misc/warning.svg" alt="">
                 </div>
                 <!-- /.input -->
 
