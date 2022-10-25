@@ -1,0 +1,21 @@
+#goal {
+  margin-top: 80px;
+
+  .section__header {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 40px;
+    }
+
+    margin-bottom: 60px;
+  }
+}
+
+.goal {
+  p {
+    @include breakpoint($breakpoint-mobile--large) {
+      br {
+        display: none;
+      }
+    }
+  }
+}

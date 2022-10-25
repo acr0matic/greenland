@@ -6,7 +6,6 @@
     <div class="container">
       <div class="hero">
         <div class="hero__action">
-          <a href="#callback" class="button button-secondary">Забронировать</a>
         </div>
         <!-- /.hero__action -->
       </div>
@@ -50,6 +49,8 @@
               и видом на море.
               <br> <br>
               На территории парка-отеля расположены две беседки площадью 35 и 60 квадратных метров
+              <br> <br>
+              Вводный текст <a href="" class="link link--color">Правила проживания + памятка</a>
             </p>
           </div>
           <!-- /.col-6 -->
@@ -61,227 +62,62 @@
     <!-- /.container -->
   </section>
 
-  <section id="advantage" class="section">
+  <section id="goal" class="section">
     <div class="container">
-      <div class="advantage">
-        <div class="row g-4 g-md-5">
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                01
-              </h3>
+      <div class="section__header">
+        <h2 class="section__title section__title--small">
+          Миссия компании
+        </h2>
+      </div>
+      <!-- /.section__header -->
 
-              <div class="advantage__text">
-                Уютная домашняя
-                <br>
-                атмосфера
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
+      <div class="goal">
+        <div class="row gy-4">
+          <div class="col-6 col-lg-3">
+            <p>
+              Уютная домашняя
+              <br>
+              атмосфера
+            </p>
           </div>
-          <!-- /.col -->
+          <!-- /.col-3 -->
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                02
-              </h3>
-
-              <div class="advantage__text">
-                Гостеприимность
-                <br>
-                и доброжелательность
-                <br>
-                работников отеля
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
+          <div class="col-6 col-lg-3">
+            <p>
+              Гостеприимность
+              <br>
+              и доброжелательность
+              <br>
+              работников отеля
+            </p>
           </div>
-          <!-- /.col -->
+          <!-- /.col-3 -->
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                03
-              </h3>
-
-              <div class="advantage__text">
-                Шикарные европейские
-                <br>
-                завтраки
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
+          <div class="col-6 col-lg-3">
+            <p>
+              Шикарные
+              <br>
+              европейские
+              <br>
+              завтраки
+            </p>
           </div>
-          <!-- /.col -->
+          <!-- /.col-3 -->
 
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                04
-              </h3>
-
-              <div class="advantage__text">
-                Уникальное
-                <br>
-                место
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
+          <div class="col-6 col-lg-3">
+            <p>
+              Уникальное
+              <br>
+              место
+            </p>
           </div>
-          <!-- /.col -->
-
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                05
-              </h3>
-
-              <div class="advantage__text">
-                Индивидуальный
-                <br>
-                подход к каждому
-                <br>
-                отдыхающему
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
-          </div>
-          <!-- /.col -->
-
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                06
-              </h3>
-
-              <div class="advantage__text">
-                Дизайнерские
-                <br>
-                номера
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
-          </div>
-          <!-- /.col -->
-
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                07
-              </h3>
-
-              <div class="advantage__text">
-                Бесплатные
-                <br>
-                крытые беседки
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
-          </div>
-          <!-- /.col -->
-
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="advantage__card">
-              <h3 class="advantage__number">
-                08
-              </h3>
-
-              <div class="advantage__text">
-                Оптимальный
-                <br>
-                уровень цен
-              </div>
-              <!-- /.advantage__text -->
-            </div>
-            <!-- /.advantage__card -->
-          </div>
-          <!-- /.col -->
+          <!-- /.col-3 -->
         </div>
         <!-- /.row -->
       </div>
-      <!-- /.advantage -->
+      <!-- /.goal -->
     </div>
     <!-- /.container -->
-  </section>
-
-  <section id="feature" class="section">
-    <div class="feature">
-      <div class="feature__background lazy-item" data-bg="img/layout/page/index/feature/picture.jpg"></div>
-
-      <div class="container d-none d-md-block">
-        <div class="row">
-          <div class="col-4">
-            <div class="feature__item">
-              <h3 class="feature__number">
-                2
-              </h3>
-              <!-- /.feature__number -->
-
-              <p class="feature__title">
-                Больших дома
-                <br>
-                в европейском
-                <br>
-                стиле
-              </p>
-            </div>
-            <!-- /.feature__item -->
-          </div>
-          <!-- /.col-4 -->
-
-          <div class="col-4">
-            <div class="feature__item">
-              <h3 class="feature__number">
-                8Га
-              </h3>
-              <!-- /.feature__number -->
-
-              <p class="feature__title">
-                Большая
-                <br>
-                территория
-                <br>
-                с великолепными
-                <br>
-                видами
-              </p>
-            </div>
-            <!-- /.feature__item -->
-          </div>
-          <!-- /.col-4 -->
-
-          <div class="col-4">
-            <div class="feature__item">
-              <h3 class="feature__number">
-                8
-              </h3>
-              <!-- /.feature__number -->
-
-              <p class="feature__title">
-                Роскошных
-                <br>
-                номеров со всеми
-                <br>
-                удобствами
-              </p>
-            </div>
-            <!-- /.feature__item -->
-          </div>
-          <!-- /.col-4 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </div>
-    <!-- /.feature -->
   </section>
 
   <section id="catalog" class="section">
@@ -646,76 +482,6 @@
   </section>
 
   <?php include_once('layout/block/video.php') ?>
-
-  <section id="rule" class="section">
-    <div class="container">
-      <div class="rule">
-        <div class="row">
-          <div class="col-12 col-md-5 mb-4 mb-md-0">
-            <picture class="rule__picture lazy position-sticky">
-              <img class="image image--cover lazy__item" data-src="img/layout/page/index/rule/picture.jpg" src="img/layout/page/index/rule/picture.jpg" alt="">
-            </picture>
-          </div>
-          <!-- /.col-5 -->
-
-          <div class="col-12 col-md-7 ps-md-5 d-flex flex-column">
-            <div class="section__header">
-              <h2 class="section__title section__title--small">
-                Правила проживания
-              </h2>
-            </div>
-            <!-- /.section__header -->
-
-            <p>
-              Наш парк-отель находится в необыкновенном месте Нижегородской области! Комплекс окружён многовековым лесом, и расположен на берегу безбрежного Горьковского моря!
-              <br> <br>
-              Мы сделали всё, чтобы Ваше пребывание наедине с природой было максимально комфортным.
-              <br> <br>
-              На территории семейного парк-отеля расположены: дом с сауной и хамам (до 11 персон), уютный коттедж (до 15 персон), отель (номерной фонд, ресторан, детская игровая, спортивный зал), две крытые беседки, баня.
-            </p>
-
-            <div class="rule__info">
-              <div class="row gy-3">
-                <div class="col-12 col-lg-6 order-21 order-lg-1">
-                  <div class="d-flex">
-                    <img class="me-3 me-md-4" src="content/icon/clock-1.svg" alt="">
-                    Заезд с 12:00
-                  </div>
-                </div>
-                <!-- /.col-6 -->
-
-                <div class="col-12 col-lg-6 order-3 order-lg-2">
-                  <div class="d-flex">
-                    <img class="me-3 me-md-4" src="content/icon/cup.svg" alt="">
-                    Завтрак включен
-                  </div>
-                </div>
-                <!-- /.col-6 -->
-
-                <div class="col-12 col-lg-6 order-2 order-lg-3">
-                  <div class="d-flex">
-                    <img class="me-3 me-md-4" src="content/icon/clock-2.svg" alt="">
-                    Отъезд в 18:00
-                  </div>
-                </div>
-                <!-- /.col-6 -->
-              </div>
-              <!-- /.row -->
-            </div>
-
-            <div class="rule__action text-center mt-auto">
-              <a href="" download class="button button-secondary">Скачать правила</a>
-            </div>
-            <!-- /.rule__action -->
-          </div>
-          <!-- /.col-7 ps-5 -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.rule -->
-    </div>
-    <!-- /.container -->
-  </section>
 
   <?php include_once('layout/block/gallery.php') ?>
 
