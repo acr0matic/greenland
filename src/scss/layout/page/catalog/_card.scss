@@ -1,0 +1,53 @@
+.catalog-card {
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 180px;
+    }
+
+    height: 225px;
+  }
+
+  &__wrapper {
+    padding: 20px;
+
+    border: 2px solid #d9d9d9;
+    border-top: none;
+  }
+
+  &__content {
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  &__price {
+    font-size: 20px;
+  }
+
+  &__list {
+    &:not(:last-child) {
+      margin-bottom: 25px;
+    }
+
+    & > div {
+      display: flex;
+      align-items: center;
+
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
+
+      img {
+        @include breakpoint($breakpoint-laptop) {
+          width: 24px;
+          margin-right: 12px;
+        }
+
+        margin-right: 16px;
+      }
+    }
+  }
+}

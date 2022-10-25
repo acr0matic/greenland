@@ -1,0 +1,21 @@
+#catalog-list {
+  @include breakpoint($breakpoint-mobile--large) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  padding-top: 50px;
+  padding-bottom: 60px;
+
+  .section__header {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 20px;
+    }
+
+    margin-bottom: 50px;
+  }
+
+  .section__title {
+    font-size: 36px;
+  }
+}

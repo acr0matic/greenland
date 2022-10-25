@@ -16,6 +16,10 @@
     }
 
     &:not(:last-child) {
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-right: 20px;
+      }
+
       margin-right: 60px;
     }
   }
