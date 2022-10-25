@@ -1,7 +1,7 @@
 .catalog-item {
   &__picture {
     @include breakpoint($breakpoint-laptop--medium) {
-      height: 460px;
+      height: 500px;
     }
 
     @include breakpoint($breakpoint-laptop) {
@@ -16,12 +16,12 @@
       height: 180px;
     }
 
-    height: 610px;
+    height: 590px;
   }
 
   &__content {
     @include breakpoint($breakpoint-laptop--medium) {
-      padding: 25px 0 0;
+      padding: 15px 0 0;
     }
 
     display: flex;
@@ -29,7 +29,7 @@
 
     height: 100%;
 
-    padding: 40px 0;
+    padding: 25px 0;
   }
 
   &__header {
@@ -93,7 +93,23 @@
   }
 
   &__list {
+    &:not(:last-child) {
+      @include breakpoint($breakpoint-laptop) {
+        margin-bottom: 25px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        margin-bottom: 15px;
+      }
+
+      margin-bottom: 40px;
+    }
+
     & > div {
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size__text--big - 4px;
+      }
+
       display: flex;
       align-items: center;
 
@@ -102,7 +118,7 @@
       }
 
       img {
-        @include breakpoint($breakpoint-tablet) {
+        @include breakpoint($breakpoint-laptop) {
           width: 24px;
           margin-right: 12px;
         }
@@ -113,26 +129,17 @@
   }
 
   &__rent {
-    @include breakpoint($breakpoint-laptop--medium) {
-      margin-bottom: 60px;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      margin-bottom: 15px;
-    }
-
     margin-bottom: 100px;
   }
 
   &__action {
     margin-top: auto;
+    margin-bottom: 15px;
   }
 
   &__button {
     @include breakpoint($breakpoint-tablet--large) {
       width: 100%;
     }
-
-    margin-top: 25px;
   }
 }

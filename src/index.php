@@ -148,265 +148,189 @@
   <section id="catalog" class="section">
     <div class="container">
       <div class="catalog">
-        <div class="catalog__category" id="room">
-          <div class="catalog__slider slider">
-            <div class="slider__wrapper">
-              <div class="swiper slider-catalog">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="catalog-item">
-                      <div class="row">
-                        <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
-                          <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" src="content/catalog/1.jpg" alt="">
-                          </picture>
-                        </div>
-                        <!-- /.col-9 -->
-
-                        <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
-                          <div class="catalog-item__content">
-                            <div class="catalog-item__header">
-                              <h3 class="catalog-item__title">ДОМ №3</h3>
-                              <span class="catalog-item__info">1900 руб/сутки</span>
-                            </div>
-                            <!-- /.catalog-item__header -->
-
-                            <div class="catalog-item__rent catalog-item__list">
-                              <div>
-                                <img src="content/icon/clock-1.svg" alt="">
-                                Заезд с 12:00
-                              </div>
-
-                              <div>
-                                <img src="content/icon/clock-2.svg" alt="">
-                                Отъезд в 18:00
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__rent -->
-
-                            <div class="catalog-item__additional catalog-item__list">
-                              <div>
-                                <img src="content/icon/cup.svg" alt="">
-                                Завтрак включен
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__additional -->
-
-                            <div class="catalog-item__action">
-                              <button class="catalog-item__button button button-secondary">Подробнее</button>
-                            </div>
-                            <!-- /.catalog-item__action -->
-                          </div>
-                          <!-- /.catalog-item__content -->
-                        </div>
-                        <!-- /.col-3 -->
-                      </div>
-                      <!-- /.row -->
-                    </div>
-                    <!-- /.catalog-item -->
-                  </div>
-                  <!-- /.swiper-slide -->
-
-                  <div class="swiper-slide">
-                    <div class="catalog-item">
-                      <div class="row">
-                        <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
-                          <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" alt="">
-                          </picture>
-                        </div>
-                        <!-- /.col-9 -->
-
-                        <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
-                          <div class="catalog-item__content">
-                            <div class="catalog-item__header">
-                              <h3 class="catalog-item__title">ДОМ №3</h3>
-                              <span class="catalog-item__info">1900 руб/сутки</span>
-                            </div>
-                            <!-- /.catalog-item__header -->
-
-                            <div class="catalog-item__rent catalog-item__list">
-                              <div>
-                                <img src="content/icon/clock-1.svg" alt="">
-                                Заезд с 12:00
-                              </div>
-
-                              <div>
-                                <img src="content/icon/clock-2.svg" alt="">
-                                Отъезд в 18:00
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__rent -->
-
-                            <div class="catalog-item__additional catalog-item__list">
-                              <div>
-                                <img src="content/icon/cup.svg" alt="">
-                                Завтрак включен
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__additional -->
-
-                            <div class="catalog-item__action">
-                              <button class="catalog-item__button button button-secondary">Подробнее</button>
-                            </div>
-                            <!-- /.catalog-item__action -->
-                          </div>
-                          <!-- /.catalog-item__content -->
-                        </div>
-                        <!-- /.col-3 -->
-                      </div>
-                      <!-- /.row -->
-                    </div>
-                    <!-- /.catalog-item -->
-                  </div>
-                  <!-- /.swiper-slide -->
-                </div>
-                <!-- /.swiper-wrapper -->
+        <div class="catalog__category">
+          <div class="catalog-item">
+            <div class="row">
+              <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
+                <picture class="catalog-item__picture lazy">
+                  <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" src="content/catalog/1.jpg" alt="">
+                </picture>
               </div>
-              <!-- /.catalog__slider swiper slider-catalog -->
+              <!-- /.col-9 -->
 
-              <div class="swiper-pagination d-none d-sm-block"></div>
-            </div>
-            <!-- /.slider-wrapper -->
+              <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
+                <div class="catalog-item__content">
+                  <div class="catalog-item__header">
+                    <h3 class="catalog-item__title">Отель</h3>
+                    <span class="catalog-item__info">1900 руб/сутки</span>
+                  </div>
+                  <!-- /.catalog-item__header -->
 
-            <div class="swiper-control">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+                  <div class="catalog-item__people catalog-item__list">
+                    <div>
+                      <img src="content/icon/people.svg" alt="">
+                      на 15 персон
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__people -->
+
+                  <div class="catalog-item__rent catalog-item__list">
+                    <div>
+                      <img src="content/icon/clock-1.svg" alt="">
+                      Заезд с 12:00
+                    </div>
+
+                    <div>
+                      <img src="content/icon/clock-2.svg" alt="">
+                      Отъезд в 18:00
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__rent -->
+
+                  <div class="catalog-item__additional catalog-item__list">
+                    <div>
+                      <img src="content/icon/cup.svg" alt="">
+                      Завтрак включен
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__additional -->
+
+                  <div class="catalog-item__action">
+                    <button class="catalog-item__button button button-secondary">Смотреть номера</button>
+                  </div>
+                  <!-- /.catalog-item__action -->
+                </div>
+                <!-- /.catalog-item__content -->
+              </div>
+              <!-- /.col-3 -->
             </div>
-            <!-- /.swiper-control -->
+            <!-- /.row -->
           </div>
-          <!-- /.catalog__slider -->
+          <!-- /.catalog-item -->
         </div>
         <!-- /.catalog__category -->
 
-        <div class="catalog__category" id="house">
-          <div class="catalog__slider slider">
-            <div class="slider__wrapper">
-              <div class="swiper slider-catalog">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="catalog-item">
-                      <div class="row">
-                        <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
-                          <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
-                          </picture>
-                        </div>
-                        <!-- /.col-9 -->
-
-                        <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
-                          <div class="catalog-item__content">
-                            <div class="catalog-item__header">
-                              <h3 class="catalog-item__title">Номер №3</h3>
-                              <span class="catalog-item__info">1900 руб/сутки</span>
-                            </div>
-                            <!-- /.catalog-item__header -->
-
-                            <div class="catalog-item__rent catalog-item__list">
-                              <div>
-                                <img src="content/icon/clock-1.svg" alt="">
-                                Заезд с 12:00
-                              </div>
-
-                              <div>
-                                <img src="content/icon/clock-2.svg" alt="">
-                                Отъезд в 18:00
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__rent -->
-
-                            <div class="catalog-item__additional catalog-item__list">
-                              <div>
-                                <img src="content/icon/cup.svg" alt="">
-                                Завтрак включен
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__additional -->
-
-                            <div class="catalog-item__action">
-                              <button class="catalog-item__button button button-secondary">Подробнее</button>
-                            </div>
-                            <!-- /.catalog-item__action -->
-                          </div>
-                          <!-- /.catalog-item__content -->
-                        </div>
-                        <!-- /.col-3 -->
-                      </div>
-                      <!-- /.row -->
-                    </div>
-                    <!-- /.catalog-item -->
-                  </div>
-                  <!-- /.swiper-slide -->
-
-                  <div class="swiper-slide">
-                    <div class="catalog-item">
-                      <div class="row">
-                        <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
-                          <picture class="catalog-item__picture lazy">
-                            <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" alt="">
-                          </picture>
-                        </div>
-                        <!-- /.col-9 -->
-
-                        <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
-                          <div class="catalog-item__content">
-                            <div class="catalog-item__header">
-                              <h3 class="catalog-item__title">Номер №3</h3>
-                              <span class="catalog-item__info">1900 руб/сутки</span>
-                            </div>
-                            <!-- /.catalog-item__header -->
-
-                            <div class="catalog-item__rent catalog-item__list">
-                              <div>
-                                <img src="content/icon/clock-1.svg" alt="">
-                                Заезд с 12:00
-                              </div>
-
-                              <div>
-                                <img src="content/icon/clock-2.svg" alt="">
-                                Отъезд в 18:00
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__rent -->
-
-                            <div class="catalog-item__additional catalog-item__list">
-                              <div>
-                                <img src="content/icon/cup.svg" alt="">
-                                Завтрак включен
-                              </div>
-                            </div>
-                            <!-- /.catalog-item__additional -->
-
-                            <div class="catalog-item__action">
-                              <button class="catalog-item__button button button-secondary">Подробнее</button>
-                            </div>
-                            <!-- /.catalog-item__action -->
-                          </div>
-                          <!-- /.catalog-item__content -->
-                        </div>
-                        <!-- /.col-3 -->
-                      </div>
-                      <!-- /.row -->
-                    </div>
-                    <!-- /.catalog-item -->
-                  </div>
-                  <!-- /.swiper-slide -->
-                </div>
-                <!-- /.swiper-wrapper -->
+        <div class="catalog__category">
+          <div class="catalog-item">
+            <div class="row">
+              <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
+                <picture class="catalog-item__picture lazy">
+                  <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
+                </picture>
               </div>
-              <!-- /.catalog__slider swiper slider-catalog -->
+              <!-- /.col-9 -->
 
-              <div class="swiper-pagination d-none d-sm-block"></div>
-            </div>
-            <!-- /.slider-wrapper -->
+              <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
+                <div class="catalog-item__content">
+                  <div class="catalog-item__header">
+                    <h3 class="catalog-item__title">ДОМ 1</h3>
+                    <span class="catalog-item__info">1900 руб/сутки</span>
+                  </div>
+                  <!-- /.catalog-item__header -->
 
-            <div class="swiper-control">
-              <div class="swiper-button-prev"></div>
-              <div class="swiper-button-next"></div>
+                  <div class="catalog-item__people catalog-item__list">
+                    <div>
+                      <img src="content/icon/people.svg" alt="">
+                      на 15 персон
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__people -->
+
+                  <div class="catalog-item__rent catalog-item__list">
+                    <div>
+                      <img src="content/icon/clock-1.svg" alt="">
+                      Заезд с 12:00
+                    </div>
+
+                    <div>
+                      <img src="content/icon/clock-2.svg" alt="">
+                      Отъезд в 18:00
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__rent -->
+
+                  <div class="catalog-item__additional catalog-item__list">
+                    <div>
+                      <img src="content/icon/cup.svg" alt="">
+                      Завтрак включен
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__additional -->
+
+                  <div class="catalog-item__action">
+                    <button class="catalog-item__button button button-secondary">Смотреть дом</button>
+                  </div>
+                  <!-- /.catalog-item__action -->
+                </div>
+                <!-- /.catalog-item__content -->
+              </div>
+              <!-- /.col-3 -->
             </div>
-            <!-- /.swiper-control -->
+            <!-- /.row -->
           </div>
-          <!-- /.catalog__slider -->
+          <!-- /.catalog-item -->
+        </div>
+        <!-- /.catalog__category -->
+
+        <div class="catalog__category">
+          <div class="catalog-item">
+            <div class="row">
+              <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
+                <picture class="catalog-item__picture lazy">
+                  <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/3.jpg" src="content/catalog/3.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.col-9 -->
+
+              <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
+                <div class="catalog-item__content">
+                  <div class="catalog-item__header">
+                    <h3 class="catalog-item__title">ДОМ 2</h3>
+                    <span class="catalog-item__info">1900 руб/сутки</span>
+                  </div>
+                  <!-- /.catalog-item__header -->
+
+                  <div class="catalog-item__people catalog-item__list">
+                    <div>
+                      <img src="content/icon/people.svg" alt="">
+                      на 15 персон
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__people -->
+
+                  <div class="catalog-item__rent catalog-item__list">
+                    <div>
+                      <img src="content/icon/clock-1.svg" alt="">
+                      Заезд с 12:00
+                    </div>
+
+                    <div>
+                      <img src="content/icon/clock-2.svg" alt="">
+                      Отъезд в 18:00
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__rent -->
+
+                  <div class="catalog-item__additional catalog-item__list">
+                    <div>
+                      <img src="content/icon/cup.svg" alt="">
+                      Завтрак включен
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__additional -->
+
+                  <div class="catalog-item__action">
+                    <button class="catalog-item__button button button-secondary">Смотреть дом</button>
+                  </div>
+                  <!-- /.catalog-item__action -->
+                </div>
+                <!-- /.catalog-item__content -->
+              </div>
+              <!-- /.col-3 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.catalog-item -->
         </div>
         <!-- /.catalog__category -->
       </div>
