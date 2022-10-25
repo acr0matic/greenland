@@ -60,3 +60,29 @@ if (serviceSlider)
     },
   });
 
+const heroSlider = document.querySelector('.slider-hero');
+if (heroSlider)
+  new Swiper(heroSlider, {
+    speed: 500,
+    slidesPerView: 1,
+    simulateTouch: false,
+
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+
+    pagination: {
+      el: heroSlider.querySelector('.swiper-pagination'),
+      clickable: true,
+    },
+
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+
+    a11y: {
+      enabled: false,
+    },
+  });

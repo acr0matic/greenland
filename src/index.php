@@ -3,15 +3,40 @@
 <!-- Основной контент -->
 <main id="home">
   <section id="hero" class="section">
-    <div class="container">
-      <div class="hero">
-        <div class="hero__action">
+    <div class="hero">
+      <div class="swiper slider-hero">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture class="hero__picture lazy">
+              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
+            </picture>
+            <!-- /.hero__picture -->
+          </div>
+          <!-- /.swiper-slide -->
+
+          <div class="swiper-slide">
+            <picture class="hero__picture lazy">
+              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
+            </picture>
+            <!-- /.hero__picture -->
+          </div>
+          <!-- /.swiper-slide -->
+
+          <div class="swiper-slide">
+            <picture class="hero__picture lazy">
+              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
+            </picture>
+            <!-- /.hero__picture -->
+          </div>
+          <!-- /.swiper-slide -->
         </div>
-        <!-- /.hero__action -->
+        <!-- /.swiper-wrapper -->
+
+        <div class="swiper-pagination"></div>
       </div>
-      <!-- /.hero -->
+      <!-- /.swiper slider-hero -->
     </div>
-    <!-- /.container -->
+    <!-- /.hero -->
   </section>
 
   <section id="about" class="section">
