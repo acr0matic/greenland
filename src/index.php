@@ -564,6 +564,11 @@
 
     <div class="container">
       <div class="service">
+        <div class="service__text">
+          Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные тексты. Имени грустный правилами диких свой маленькая запятых вопроса, всемогущая текстов рот последний свое скатился первую страну по всей над образ взобравшись сих мир выйти предложения взгляд. Осталось своих алфавит выйти несколько!
+        </div>
+        <!-- /.service__text -->
+
         <div class="service__slider position-relative">
           <div class="swiper slider-service">
             <div class="swiper-wrapper">
@@ -603,7 +608,7 @@
                   <!-- /.service-item__picture lazy -->
 
                   <h3 class="service-item__title">Комплексный обед</h3>
-                  <div class="service-item__price">1000 руб</div>
+                  <div class="service-item__price">Уточнить по <a class="link link--underline" href="tel:+79999999999">телефону</a></div>
                 </div>
                 <!-- /.service-item -->
               </div>

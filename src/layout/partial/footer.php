@@ -15,6 +15,10 @@
           <a target="_blank" href="" class="social__link">
             <img class="social__icon" src="img/icons/social/vk.svg" alt="">
           </a>
+
+          <a target="_blank" href="" class="social__link">
+            <img class="social__icon" src="img/icons/social/whatsapp.svg" alt="">
+          </a>
         </div>
         <!-- /.social -->
       </div>

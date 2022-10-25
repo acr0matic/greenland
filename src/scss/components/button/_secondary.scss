@@ -1,9 +1,10 @@
 .button-secondary {
-  background-color: #fffcf6;
+  border-color: #61705f;
+  background-color: #c9cec8;
 
   @media (hover: hover) {
     &:hover {
-      background-color: #fff7ec;
+      background-color: #b7beb6;
     }
   }
 }
