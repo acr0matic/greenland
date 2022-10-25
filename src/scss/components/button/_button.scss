@@ -1,5 +1,6 @@
 .button {
   @include breakpoint($breakpoint-laptop--medium) {
+    padding: 14px 50px;
     font-size: $font-size__text--large;
   }
 
@@ -13,7 +14,7 @@
 
   padding: 20px 65px;
 
-  border: 1px solid #c79b59;
+  border: 1px solid #fffcf6;
   border-radius: 0;
   outline: none;
 
@@ -28,6 +29,12 @@
 
   &--block {
     width: 100%;
+  }
+
+  &--header {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__text--big - 2px;
+    }
   }
 
   &:disabled {

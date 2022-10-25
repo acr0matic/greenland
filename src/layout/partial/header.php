@@ -66,58 +66,57 @@
 
   <!-- Шапка -->
   <header id="header" class="header">
-    <div class="header__wrapper">
-      <div class="container">
-        <div class="header__nav">
-          <nav class="nav nav--header">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a class="nav__link link" href="#house">Дома</a>
-              </li>
-
-              <li class="nav__item">
-                <a class="nav__link link" href="#room">Номера</a>
-              </li>
-
-              <li class="nav__item">
-                <a class="nav__link link" href="#service">Услуги</a>
-              </li>
-
-              <li class="nav__item nav__item--logo">
-                <a class="nav__link" href="#">
-                  <img class="logo logo--header" src="img/logo.svg" alt="">
-                </a>
-              </li>
-
-              <li class="nav__item">
-                <a class="nav__link link" href="#gallery">Галерея</a>
-              </li>
-
-              <li class="nav__item">
-                <a class="nav__link link" href="#contact">Контакты</a>
-              </li>
-
-              <li class="nav__item">
-                <a class="nav__link link" href="#about">О нас</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- /.nav -->
-        </div>
-        <!-- /.header__nav -->
-
-        <div class="header__burger d-block d-lg-none">
-          <button class="hamburger hamburger--squeeze" type="button">
-            <span class="hamburger-box">
-              <span class="hamburger-inner"></span>
-            </span>
-          </button>
-        </div>
-        <!-- /.header__burger -->
+    <div class="header__container">
+      <div class="header__logo">
+        <a href="">
+          <img class="logo logo--header" src="img/logo.svg" alt="">
+        </a>
       </div>
-      <!-- /.container -->
+      <!-- /.header__logo -->
+
+      <div class="header__nav">
+        <nav class="nav nav--header">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link link" href="#about">О нас</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link link" href="#about">Размещение</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link link" href="#service">Услуги</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link link" href="#gallery">Галерея</a>
+            </li>
+
+            <li class="nav__item">
+              <a class="nav__link link" href="#contact">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.nav -->
+      </div>
+      <!-- /.header__nav -->
+
+      <div class="header__action d-none d-md-block me-4 me-lg-0">
+        <a href="#callback" class="button button--header button-primary">Забронировать</a>
+      </div>
+      <!-- /.header__action -->
+
+      <div class="header__burger d-block d-lg-none">
+        <button class="hamburger hamburger--squeeze" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+      <!-- /.header__burger -->
     </div>
-    <!-- /.header__wrapper -->
+    <!-- /.header__container -->
 
     <?php include_once('menu/mobile.php') ?>
   </header>

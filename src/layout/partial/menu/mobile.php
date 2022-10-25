@@ -8,11 +8,11 @@
             <nav class="nav nav--mobile">
               <ul class="nav__list">
                 <li class="nav__item">
-                  <a href="#house" class="nav__link">Дома</a>
+                  <a href="#house" class="nav__link">О нас</a>
                 </li>
 
                 <li class="nav__item">
-                  <a href="#room" class="nav__link">Номера</a>
+                  <a href="#room" class="nav__link">Размещение</a>
                 </li>
 
                 <li class="nav__item">
@@ -34,10 +34,6 @@
                 <li class="nav__item">
                   <a href="#gallery" class="nav__link">Галерея</a>
                 </li>
-
-                <li class="nav__item">
-                  <a href="#about" class="nav__link">О нас</a>
-                </li>
               </ul>
             </nav>
             <!-- /.nav -->
@@ -45,6 +41,11 @@
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
+
+        <div class="mobile-menu__action d-block d-md-none">
+          <a href="#callback" class="button button--header button-primary">Забронировать</a>
+        </div>
+        <!-- /.mobile-menu__action -->
       </div>
       <!-- /.mobile-menu__nav -->
     </div>

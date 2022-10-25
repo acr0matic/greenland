@@ -7,11 +7,19 @@
   z-index: $z-index-header;
   top: 0;
 
-  &--contrast .header__wrapper {
+  &--contrast .header__container {
     background-color: #f2f2f2 !important;
   }
 
-  .container {
+  &__container {
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding: 35px 15px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      padding: 15px;
+    }
+
     position: relative;
     z-index: 3;
 
@@ -19,27 +27,22 @@
     align-items: center;
     justify-content: space-between;
 
+    padding: 45px 60px;
+
+    background-color: $palette-white;
+
     transition: $transition ease;
   }
 
-  &__wrapper {
-    @include breakpoint($breakpoint-laptop--medium) {
-      padding: 45px 0;
-    }
-
-    @include breakpoint($breakpoint-tablet--large) {
-      padding: 25px 0;
-    }
-
-    position: relative;
-    z-index: 3;
-
-    padding: 55px 0;
-
-    background-color: $palette-white;
+  &__logo {
+    margin-right: 60px;
   }
 
   &__nav {
     flex-grow: 1;
+  }
+
+  &__action {
+    margin-left: 60px;
   }
 }

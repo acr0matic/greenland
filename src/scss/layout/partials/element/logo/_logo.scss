@@ -9,17 +9,17 @@
 
   &--header {
     @include breakpoint($breakpoint-laptop--medium) {
-      width: 300px;
+      width: 210px;
     }
 
     @include breakpoint($breakpoint-laptop) {
-      width: 240px;
+      width: 170px;
     }
 
     @include breakpoint($breakpoint-tablet) {
-      width: 180px;
+      width: 150px;
     }
 
-    width: 360px;
+    width: 300px;
   }
 }
