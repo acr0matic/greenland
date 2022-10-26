@@ -13,8 +13,9 @@ body {
 
   color: $color-text__primary;
 
+  font-weight: $weight-Light;
   font-size: $font-size__text--large;
-  font-family: OpenSans, sans-serif;
+  font-family: Montserrat, sans-serif;
 
   line-height: $line-height--primary;
 }
@@ -23,6 +24,5 @@ h1,
 h2,
 h3 {
   font-weight: $weight-Light;
-  font-family: FuturaPT, sans-serif;
   text-transform: uppercase;
 }

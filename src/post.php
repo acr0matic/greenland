@@ -19,7 +19,7 @@
               </a>
             </picture>
 
-            <div class="post__thumb d-block d-sm-none">
+            <div class="post__thumb d-none">
               <div class="row g-2">
                 <div class="col-3">
                   <picture class="catalog-item__picture lazy">
@@ -76,39 +76,28 @@
               </p>
 
               <div class="post__benefits">
-                <div class="row">
-                  <div class="col-12 col-lg-6 mb-4 mb-sm-5 mb-lg-0">
-                    <ul class="post__list">
-                      <li>Площадь - 23 м</li>
-                      <li>5 комнат</li>
-                      <li>Кухня включена</li>
-                    </ul>
-                    <!-- /.post__list -->
+                <div class="post__list">
+                  <div class="mb-sm-5">
+                    <img src="content/icon/people.svg" alt="">
+                    на 15 персон
                   </div>
-                  <!-- /.col-6 -->
 
-                  <div class="col-12 col-lg-6">
-                    <div class="post__list">
-                      <div>
-                        <img src="content/icon/clock-1.svg" alt="">
-                        Заезд с 12:00
-                      </div>
-
-                      <div class="mb-sm-5">
-                        <img src="content/icon/clock-2.svg" alt="">
-                        Отъезд в 18:00
-                      </div>
-
-                      <div>
-                        <img src="content/icon/cup.svg" alt="">
-                        Завтрак включен
-                      </div>
-                    </div>
-                    <!-- /.post__list -->
+                  <div>
+                    <img src="content/icon/clock-2.svg" alt="">
+                    Заезд с 12:00
                   </div>
-                  <!-- /.col-6 -->
+
+                  <div class="mb-sm-5">
+                    <img src="content/icon/clock-1.svg" alt="">
+                    Отъезд в 18:00
+                  </div>
+
+                  <div>
+                    <img src="content/icon/cup.svg" alt="">
+                    Завтрак включен
+                  </div>
                 </div>
-                <!-- /.row -->
+                <!-- /.post__list -->
               </div>
               <!-- /.post__benefits -->
             </div>
