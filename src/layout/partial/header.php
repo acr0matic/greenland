@@ -102,12 +102,12 @@
       </div>
       <!-- /.header__nav -->
 
-      <div class="header__action d-none d-md-block me-4 me-lg-0">
+      <div class="header__action d-none d-md-block">
         <a href="#callback" class="button button--header button-primary">Забронировать</a>
       </div>
       <!-- /.header__action -->
 
-      <div class="header__burger d-block d-lg-none">
+      <div class="header__burger">
         <button class="hamburger hamburger--squeeze" type="button">
           <span class="hamburger-box">
             <span class="hamburger-inner"></span>

@@ -35,7 +35,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -67,7 +67,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -99,7 +99,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -131,7 +131,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -163,7 +163,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -195,7 +195,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -227,7 +227,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>
@@ -259,7 +259,7 @@
                 <!-- /.catalog-card__people -->
 
                 <div class="catalog-card__action">
-                  <a href="" class="catalog-card__button button button--block button-secondary">Смотреть номер</a>
+                  <a href="" class="catalog-card__button button button--small button--block button-secondary">Смотреть номер</a>
                 </div>
                 <!-- /.catalog-card__action -->
               </div>

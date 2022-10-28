@@ -4,7 +4,7 @@
   }
 
   .section__title {
-    @include breakpoint($breakpoint-laptop) {
+    @include breakpoint($breakpoint-laptop--medium) {
       br {
         display: none;
       }

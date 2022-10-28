@@ -19,7 +19,7 @@
               </a>
             </picture>
 
-            <div class="post__thumb d-none">
+            <div class="post__thumb d-sm-none">
               <div class="row g-2">
                 <div class="col-3">
                   <picture class="catalog-item__picture lazy">

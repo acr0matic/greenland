@@ -72,9 +72,17 @@
 
     @include breakpoint($breakpoint-mobile--large) {
       position: static !important;
+      height: 240px;
     }
 
     height: 666px;
+    transition: $transition ease;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 
   &__thumb {

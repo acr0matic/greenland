@@ -33,6 +33,10 @@
     padding-left: 0;
   }
 
+  &--small {
+    font-size: $font-size__text--regular;
+  }
+
   &--header {
     @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--big - 2px;
