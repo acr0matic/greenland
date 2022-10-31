@@ -10,4 +10,18 @@
 
     background-color: $palette-white--dark;
   }
+
+  &__text {
+    @include breakpoint($breakpoint-laptop) {
+      br {
+        display: none;
+      }
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 30px;
+    }
+
+    margin-top: 60px;
+  }
 }

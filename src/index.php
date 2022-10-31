@@ -43,9 +43,9 @@
     <div class="container">
       <div class="section__header">
         <h1 class="section__title d-flex flex-column">
-          <span><strong>GREEN LAND</strong> — Это</span>
-          <span class="text-center">Уютный отдых</span>
-          <span class="text-end">на Горьковском море</span>
+          <span><strong>Парк-отель «Green Land» –</strong></span>
+          <span class="text-end">это отдых для</span>
+          <span>счастливых семей</span>
         </h1>
       </div>
       <!-- /.section__header -->
@@ -91,7 +91,9 @@
     <div class="container">
       <div class="section__header">
         <h2 class="section__title section__title--small">
-          Миссия компании
+          Наша миссия – Дарить
+          <br>
+          людям радость !
         </h2>
       </div>
       <!-- /.section__header -->
@@ -144,6 +146,8 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <?php include_once('layout/block/video.php') ?>
 
   <section id="catalog" class="section">
     <div class="container">
@@ -429,8 +433,6 @@
     </div>
     <!-- /.container -->
   </section>
-
-  <?php include_once('layout/block/video.php') ?>
 
   <?php include_once('layout/block/gallery.php') ?>
 
