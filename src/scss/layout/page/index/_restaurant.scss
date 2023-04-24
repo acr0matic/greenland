@@ -1,0 +1,15 @@
+#restaurant {
+  .section__header {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 25px;
+    }
+
+    margin-bottom: 40px;
+  }
+}
+
+.restaurant {
+  &__action {
+    margin-top: 40px;
+  }
+}

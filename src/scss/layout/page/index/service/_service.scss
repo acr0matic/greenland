@@ -25,5 +25,11 @@
   }
 
   &__slider {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+
+    width: 90%;
+    margin: 0 auto;
   }
 }

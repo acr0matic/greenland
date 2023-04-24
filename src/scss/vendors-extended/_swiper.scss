@@ -2,6 +2,10 @@
 
 .swiper {
   &-control {
+    @include breakpoint($breakpoint-tablet--large) {
+      display: none;
+    }
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,10 +21,6 @@
 
   &-button-prev,
   &-button-next {
-    @include breakpoint(max-width 1310px) {
-      display: none;
-    }
-
     position: relative;
 
     width: 30px;
@@ -37,12 +37,12 @@
   }
 
   &-button-prev {
-    left: -80px;
+    left: -60px;
     background-image: url("../img/icons/control/slider-arrow__left.svg");
   }
 
   &-button-next {
-    right: -80px;
+    right: -60px;
     background-image: url("../img/icons/control/slider-arrow__right.svg");
   }
 

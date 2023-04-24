@@ -2,50 +2,29 @@
 
 <!-- Основной контент -->
 <main id="home">
-  <section id="hero" class="section">
-    <div class="hero">
-      <div class="swiper slider-hero">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <picture class="hero__picture lazy">
-              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
-            </picture>
-            <!-- /.hero__picture -->
-          </div>
-          <!-- /.swiper-slide -->
-
-          <div class="swiper-slide">
-            <picture class="hero__picture lazy">
-              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
-            </picture>
-            <!-- /.hero__picture -->
-          </div>
-          <!-- /.swiper-slide -->
-
-          <div class="swiper-slide">
-            <picture class="hero__picture lazy">
-              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
-            </picture>
-            <!-- /.hero__picture -->
-          </div>
-          <!-- /.swiper-slide -->
-        </div>
-        <!-- /.swiper-wrapper -->
-
-        <div class="swiper-pagination"></div>
-      </div>
-      <!-- /.swiper slider-hero -->
-    </div>
-    <!-- /.hero -->
-  </section>
-
   <section id="about" class="section">
     <div class="container">
       <div class="section__header">
-        <h1 class="section__title d-flex flex-column">
+        <h1 class="section__title d-flex flex-column d-none d-sm-block text-center">
           <span><strong>Парк-отель «Green Land» –</strong></span>
           <span class="text-end">это отдых для</span>
           <span>счастливых семей</span>
+        </h1>
+
+        <h1 class="section__title d-flex flex-column d-block d-sm-none text-center">
+          <span>
+            <strong>
+              Парк-отель «Green
+              <br>
+              Land» –
+            </strong>
+
+            Это отдых
+            <br>
+            для счастливых
+            <br>
+            семей
+          </span>
         </h1>
       </div>
       <!-- /.section__header -->
@@ -339,6 +318,48 @@
         <!-- /.catalog__category -->
       </div>
       <!-- /.catalog -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="restaurant" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title text-center">
+          Ресторан
+        </h2>
+      </div>
+      <!-- /.section__header -->
+
+      <div class="restaurant">
+        <div class="swiper slider-restaurant">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <picture class="restaurant__picture lazy">
+                <img class="image image--cover lazy__item" data-src="content/restaurant/1.jpg" src="content/restaurant/1.jpg" alt="">
+              </picture>
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <picture class="restaurant__picture lazy">
+                <img class="image image--cover lazy__item" data-src="content/restaurant/2.jpg" src="content/restaurant/2.jpg" alt="">
+              </picture>
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- /.swiper slider-restaurant -->
+
+        <div class="restaurant__action text-center">
+          <a href="" class="button button--header button-primary">Смотреть меню</a>
+        </div>
+        <!-- /.restaurant__action -->
+      </div>
+      <!-- /.restaurant -->
     </div>
     <!-- /.container -->
   </section>

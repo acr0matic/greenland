@@ -60,9 +60,9 @@ if (serviceSlider)
     },
   });
 
-const heroSlider = document.querySelector('.slider-hero');
-if (heroSlider)
-  new Swiper(heroSlider, {
+const restaurantSlider = document.querySelector('.slider-restaurant');
+if (restaurantSlider)
+  new Swiper(restaurantSlider, {
     speed: 500,
     slidesPerView: 1,
     simulateTouch: false,
@@ -73,7 +73,7 @@ if (heroSlider)
     },
 
     pagination: {
-      el: heroSlider.querySelector('.swiper-pagination'),
+      el: restaurantSlider.querySelector('.swiper-pagination'),
       clickable: true,
     },
 

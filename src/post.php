@@ -130,6 +130,8 @@
 
   <?php include_once('layout/block/gallery.php') ?>
 
+  <?php include_once('layout/block/video.php') ?>
+
   <?php include_once('layout/block/callback.php') ?>
 
   <?php include_once('layout/block/contact.php') ?>

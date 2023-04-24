@@ -1,4 +1,9 @@
 .catalog-card {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+
   &__picture {
     @include breakpoint($breakpoint-laptop--medium) {
       height: 180px;
@@ -8,6 +13,10 @@
   }
 
   &__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+
     padding: 20px;
 
     border: 2px solid #d9d9d9;
@@ -30,6 +39,8 @@
   }
 
   &__list {
+    margin-top: auto;
+
     &:not(:last-child) {
       margin-bottom: 25px;
     }
