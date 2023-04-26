@@ -134,14 +134,14 @@
         <div class="catalog__category">
           <div class="catalog-item">
             <div class="row">
-              <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
+              <div class="col-12 col-md-7 col-lg-8 pe-md-4 pe-xxl-5">
                 <picture class="catalog-item__picture lazy">
                   <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/1.jpg" src="content/catalog/1.jpg" alt="">
                 </picture>
               </div>
               <!-- /.col-9 -->
 
-              <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
+              <div class="col-12 col-md-5 col-lg-4">
                 <div class="catalog-item__content">
                   <div class="catalog-item__header">
                     <h3 class="catalog-item__title">Отель</h3>
@@ -196,14 +196,14 @@
         <div class="catalog__category">
           <div class="catalog-item">
             <div class="row">
-              <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
+              <div class="col-12 col-md-7 col-lg-8 pe-md-4 pe-xxl-5">
                 <picture class="catalog-item__picture lazy">
                   <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/2.jpg" src="content/catalog/2.jpg" alt="">
                 </picture>
               </div>
               <!-- /.col-9 -->
 
-              <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
+              <div class="col-12 col-md-5 col-lg-4">
                 <div class="catalog-item__content">
                   <div class="catalog-item__header">
                     <h3 class="catalog-item__title">ДОМ 1</h3>
@@ -258,14 +258,14 @@
         <div class="catalog__category">
           <div class="catalog-item">
             <div class="row">
-              <div class="col-12 col-md-7 col-lg-8 col-xxl-9 pe-md-4 pe-xxl-5">
+              <div class="col-12 col-md-7 col-lg-8 pe-md-4 pe-xxl-5">
                 <picture class="catalog-item__picture lazy">
                   <img class="catalog-item__image image image--cover lazy__item" data-src="content/catalog/3.jpg" src="content/catalog/3.jpg" alt="">
                 </picture>
               </div>
               <!-- /.col-9 -->
 
-              <div class="col-12 col-md-5 col-lg-4 col-xxl-3">
+              <div class="col-12 col-md-5 col-lg-4">
                 <div class="catalog-item__content">
                   <div class="catalog-item__header">
                     <h3 class="catalog-item__title">ДОМ 2</h3>
@@ -316,50 +316,89 @@
           <!-- /.catalog-item -->
         </div>
         <!-- /.catalog__category -->
+
+        <div class="catalog__category">
+          <div class="catalog-item">
+            <div class="row">
+              <div class="col-12 col-md-7 col-lg-8 pe-md-4 pe-xxl-5">
+                <div class="swiper slider-restaurant">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <picture class="catalog-item__picture lazy">
+                        <img class="image image--cover lazy__item" data-src="content/restaurant/1.jpg" src="content/restaurant/1.jpg" alt="">
+                      </picture>
+                    </div>
+                    <!-- /.swiper-slide -->
+
+                    <div class="swiper-slide">
+                      <picture class="catalog-item__picture lazy">
+                        <img class="image image--cover lazy__item" data-src="content/restaurant/2.jpg" src="content/restaurant/2.jpg" alt="">
+                      </picture>
+                    </div>
+                    <!-- /.swiper-slide -->
+                  </div>
+                  <!-- /.swiper-wrapper -->
+
+                  <div class="swiper-pagination"></div>
+                </div>
+                <!-- /.swiper slider-restaurant -->
+              </div>
+              <!-- /.col-9 -->
+
+              <div class="col-12 col-md-5 col-lg-4 col-xxl-4">
+                <div class="catalog-item__content">
+                  <div class="catalog-item__header">
+                    <h3 class="catalog-item__title">Ресторан</h3>
+                  </div>
+                  <!-- /.catalog-item__header -->
+
+                  <div class="catalog-item__list">
+                    <div>
+                      <img src="content/icon/people.svg" alt="">
+                      50 персон
+                    </div>
+
+                    <div>
+                      <img src="content/icon/chef.svg" alt="">
+                      Европейская кухня
+                    </div>
+
+                    <div>
+                      <img src="content/icon/clock-2.svg" alt="">
+                      Проведение мероприятий
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__additional -->
+
+                  <div class="catalog-item__favorite catalog-item__list">
+                    <div>
+                      <img src="content/icon/star.svg" alt="">
+                      <a target="_blank" class="link link--underline" href="">Гастроужин</a>
+                    </div>
+
+                    <div>
+                      <img src="content/icon/star.svg" alt="">
+                      <a target="_blank" class="link link--underline" href="">Гриль - пати</a>
+                    </div>
+                  </div>
+                  <!-- /.catalog-item__rent -->
+
+                  <div class="catalog-item__action">
+                    <button class="catalog-item__button button button-primary">Смотреть меню</button>
+                  </div>
+                  <!-- /.catalog-item__action -->
+                </div>
+                <!-- /.catalog-item__content -->
+              </div>
+              <!-- /.col-3 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.catalog-item -->
+        </div>
+        <!-- /.catalog__category -->
       </div>
       <!-- /.catalog -->
-    </div>
-    <!-- /.container -->
-  </section>
-
-  <section id="restaurant" class="section">
-    <div class="container">
-      <div class="section__header">
-        <h2 class="section__title text-center">
-          Ресторан
-        </h2>
-      </div>
-      <!-- /.section__header -->
-
-      <div class="restaurant">
-        <div class="swiper slider-restaurant">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <picture class="restaurant__picture lazy">
-                <img class="image image--cover lazy__item" data-src="content/restaurant/1.jpg" src="content/restaurant/1.jpg" alt="">
-              </picture>
-            </div>
-            <!-- /.swiper-slide -->
-
-            <div class="swiper-slide">
-              <picture class="restaurant__picture lazy">
-                <img class="image image--cover lazy__item" data-src="content/restaurant/2.jpg" src="content/restaurant/2.jpg" alt="">
-              </picture>
-            </div>
-            <!-- /.swiper-slide -->
-          </div>
-          <!-- /.swiper-wrapper -->
-
-          <div class="swiper-pagination"></div>
-        </div>
-        <!-- /.swiper slider-restaurant -->
-
-        <div class="restaurant__action text-center">
-          <a href="" class="button button--header button-primary">Смотреть меню</a>
-        </div>
-        <!-- /.restaurant__action -->
-      </div>
-      <!-- /.restaurant -->
     </div>
     <!-- /.container -->
   </section>
