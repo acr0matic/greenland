@@ -2,6 +2,43 @@
 
 <!-- Основной контент -->
 <main id="home">
+  <section id="hero" class="section">
+    <div class="hero">
+      <div class="swiper slider-hero">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture class="hero__picture lazy">
+              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
+            </picture>
+            <!-- /.hero__picture -->
+          </div>
+          <!-- /.swiper-slide -->
+
+          <div class="swiper-slide">
+            <picture class="hero__picture lazy">
+              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
+            </picture>
+            <!-- /.hero__picture -->
+          </div>
+          <!-- /.swiper-slide -->
+
+          <div class="swiper-slide">
+            <picture class="hero__picture lazy">
+              <img data-src="img/layout/page/index/hero/background.jpg" class="image image--cover lazy__item lazy__item--blur" alt="">
+            </picture>
+            <!-- /.hero__picture -->
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- /.swiper-wrapper -->
+
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- /.swiper slider-hero -->
+    </div>
+    <!-- /.hero -->
+  </section>
+
   <section id="about" class="section">
     <div class="container">
       <div class="section__header">

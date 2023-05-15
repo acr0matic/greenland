@@ -1,5 +1,4 @@
 const catalogSlider = document.querySelectorAll('.slider-catalog');
-
 if (catalogSlider)
   catalogSlider.forEach(slider => {
     const container = slider.closest('.slider');
@@ -74,6 +73,33 @@ if (restaurantSlider)
 
     pagination: {
       el: restaurantSlider.querySelector('.swiper-pagination'),
+      clickable: true,
+    },
+
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    },
+
+    a11y: {
+      enabled: false,
+    },
+  });
+
+const heroSlider = document.querySelector('.slider-hero');
+if (heroSlider)
+  new Swiper(heroSlider, {
+    speed: 500,
+    slidesPerView: 1,
+    simulateTouch: false,
+
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true,
+    },
+
+    pagination: {
+      el: heroSlider.querySelector('.swiper-pagination'),
       clickable: true,
     },
 
